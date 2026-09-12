@@ -22,7 +22,7 @@ git init ( to make a simple file into git repository  to track changes)
 (git remote add origin <link>) is used to connect your local Git repository to a repository on GitHub.
 
 bahot saalo se GitHub pr default branch ab main branch man gyi hai
-command (git branch )
+command (git branch)
 
 to change the name of branch (git branch -M main2)
 
@@ -32,6 +32,12 @@ to switch branch to main ( git checkout main)
 
 to delete the branch ( git branch -d feature2)
 
+git pull origin main ( saare content GitHub se local repo mai lene ke liye after PR)
 
+git diff main ( to see the difference bw branches)
+ 
+to merge  2 branch ( git merge main)
+TO undo add ( git reset <file_name>)
+to undo commit ( git reset HEAD~1)
 
-
+FORK is used to create copy of someone project/code!
