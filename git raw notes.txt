@@ -1,0 +1,37 @@
+
+git bash connected with vs code ( Pehle powershell mai tha)
+
+git status( to check if its up to date with GitHub repository)
+ls 
+ls -a( hidden files check kr sakte hai)
+
+main folder, files and folders!
+codex
+add & commit
+( git commit -m “[descriptive message]”)
+( git add file_name)
+
+mkdir then its name ( it will make new directory)
+
+cd file ka naam ( it will go to that file)
+git push origin main ( it pushes the repo and update in GitHub)
+
+cd .. ( to go out of directory)
+
+git init ( to make a simple file into git repository  to track changes)
+(git remote add origin <link>) is used to connect your local Git repository to a repository on GitHub.
+
+bahot saalo se GitHub pr default branch ab main branch man gyi hai
+command (git branch )
+
+to change the name of branch (git branch -M main2)
+
+to create a new branch ( git checkout -b <-new branch name->)
+
+to switch branch to main ( git checkout main)
+
+to delete the branch ( git branch -d feature2)
+
+
+
+
